@@ -5,8 +5,12 @@ import { Outlet } from "react-router-dom";
 function App() {
   return (
     <>
-      <NavBar />
-      <Outlet />
+      <div className="flex flex-col h-screen">
+        <NavBar />
+        <div className="flex flex-1 justify-center items-center">
+          <Outlet />
+        </div>
+      </div>
     </>
   );
 }

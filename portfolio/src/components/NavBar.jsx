@@ -11,10 +11,10 @@ function NavBar() {
             <NavLink
               exact
               to="/"
-              className="className="
+              className="
               hover:underline
               decoration-2
-              decoration-sky-500
+              decoration-sky-500"
               /*activeClassName="decoration-2 decoration-sky-500 text-sky-500"*/
             >
               Home
