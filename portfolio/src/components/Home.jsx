@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 
 function Home() {
   return (
-    <div className="flex flex-col items-center justify-center">
+    <div className="flex flex-col items-center justify-center bg-white p-14 rounded-xl shadow-2xl mb-24">
       <img src={profilepic} className="h-44 w-44 mb-4"></img>
 
       <h1 className="font-bold text-3xl">Brandon Scott</h1>

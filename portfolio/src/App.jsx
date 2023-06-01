@@ -7,7 +7,7 @@ function App() {
     <>
       <div className="flex flex-col h-screen">
         <NavBar />
-        <div className="flex flex-1 justify-center items-center">
+        <div className="flex flex-1 justify-center items-center bg-gradient-to-r from-sky-500/50 to-indigo-500/50">
           <Outlet />
         </div>
       </div>
