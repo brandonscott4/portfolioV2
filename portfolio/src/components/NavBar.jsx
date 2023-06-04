@@ -41,11 +41,11 @@ function NavBar() {
           </li>
         </ul>
         <div className="flex justify-center items-center gap-4">
-          <div className="bg-sky-600 rounded-md px-2 py-2">
-            <NavLink exact to="contact">
-              <p className="text-white text-sm">Contact Me</p>
-            </NavLink>
-          </div>
+          <NavLink exact to="contact">
+            <button className="bg-gradient-to-r from-blue-500 to-blue-700 hover:from-blue-700 hover:to-blue-900 rounded-md font-bold px-2 py-2 text-white text-sm">
+              Contact Me
+            </button>
+          </NavLink>
           <div className="bg-slate-200 rounded-md px-2 py-2">
             <IconMoonStars />
           </div>
