@@ -24,42 +24,68 @@ function About() {
             Skills/Technologies
           </h1>
           <div className="grid grid-cols-3 gap-6">
-            <img
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
-              className="w-14 h-14"
-            />
-            <img
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
-              className="w-14 h-14"
-            />
-            <img
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
-              className="w-14 h-14"
-            />
-            <img
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
-              className="w-14 h-14"
-            />
-            <img
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
-              className="w-14 h-14"
-            />
-            <img
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg"
-              className="w-14 h-14"
-            />
-            <img
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"
-              className="w-14 h-14"
-            />
-            <img
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
-              className="w-14 h-14"
-            />
-            <img
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
-              className="w-14 h-14"
-            />
+            <div className="tooltip" data-tip="Typescript">
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
+                className="w-14 h-14"
+              />
+            </div>
+
+            <div className="tooltip" data-tip="React">
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+                className="w-14 h-14"
+              />
+            </div>
+
+            <div className="tooltip" data-tip="Java">
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
+                className="w-14 h-14"
+              />
+            </div>
+
+            <div className="tooltip" data-tip="Python">
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+                className="w-14 h-14"
+              />
+            </div>
+
+            <div className="tooltip" data-tip="MySQL">
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
+                className="w-14 h-14"
+              />
+            </div>
+
+            <div className="tooltip" data-tip="TailwindCSS">
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg"
+                className="w-14 h-14"
+              />
+            </div>
+
+            <div className="tooltip" data-tip="Express">
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"
+                className="w-14 h-14"
+              />
+            </div>
+
+            <div className="tooltip" data-tip="NodeJS">
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
+                className="w-14 h-14"
+              />
+            </div>
+
+            <div className="tooltip" data-tip="Github">
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+                className="w-14 h-14"
+              />
+            </div>
           </div>
         </div>
       </div>
