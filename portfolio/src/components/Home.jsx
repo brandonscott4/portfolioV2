@@ -22,7 +22,7 @@ function Home() {
         <img src={profilepic} className="h-44 w-44 mb-4"></img>
 
         <h1 className="font-bold text-3xl">Brandon Scott</h1>
-        <h3 className="text-gray-600 mb-4">Software developer</h3>
+        <h3 className="text-gray-600 mb-4">Software/Web developer</h3>
 
         <div className="flex gap-6">
           <a

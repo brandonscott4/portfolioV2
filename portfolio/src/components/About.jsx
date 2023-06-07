@@ -21,7 +21,7 @@ function About() {
           <br />
           <p>
             In my free time I enjoy watching/playing football, playing video
-            games on my PC (which I built myself) and reading.
+            games on my PC (which I built) and reading.
           </p>
         </div>
 
