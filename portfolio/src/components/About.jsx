@@ -16,7 +16,7 @@ function About() {
             </span>
             , and looking to break into the tech industry. Learning new
             technologies and enhancing my knowledge of familair ones is a
-            rewarding journey, that I am througly enjoying.
+            rewarding journey, that I am thoroughly enjoying.
           </p>
           <br />
           <p>
