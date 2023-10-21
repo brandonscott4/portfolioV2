@@ -3,8 +3,8 @@ import projectImg from "../assets/placeholder.jpg";
 function Projects() {
   return (
     <>
-      <div className="flex gap-12 items-center justify-center">
-        <div className="flex flex-col shadow-2xl w-1/6 max-w-1/6">
+      <div className="flex flex-col lg:flex-row gap-12 items-center justify-center my-12">
+        <div className="flex flex-col shadow-2xl w-80 border border-black rounded-xl">
           <img src={projectImg} alt="" className="rounded-t-xl" />
           <div className="basis-3/4 bg-white flex flex-col justify-center items-center p-2">
             <h3 className="text-xl font-bold">Conf Twitter Bot</h3>
@@ -27,7 +27,7 @@ function Projects() {
           </div>
         </div>
 
-        <div className="flex flex-col shadow-2xl w-1/6 max-w-1/6">
+        <div className="flex flex-col shadow-2xl w-80 border border-black rounded-xl">
           <img src={projectImg} alt="" className="rounded-t-xl" />
           <div className="basis-3/4 bg-white flex flex-col justify-center items-center p-2">
             <h3 className="text-xl font-bold">Bug Tracker</h3>
@@ -50,7 +50,7 @@ function Projects() {
           </div>
         </div>
 
-        <div className="flex flex-col shadow-2xl w-1/6 max-w-1/6">
+        <div className="flex flex-col shadow-2xl w-80 border border-black rounded-xl">
           <img src={projectImg} alt="" className="rounded-t-xl" />
           <div className="basis-3/4 bg-white flex flex-col justify-center items-center p-2">
             <h3 className="text-xl font-bold">Portfolio</h3>

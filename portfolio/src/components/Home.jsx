@@ -17,37 +17,44 @@ function Home() {
   };
 
   return (
-    <Tilt options={defaultOptions}>
-      <div className="flex flex-col items-center justify-center bg-white p-14 rounded-xl shadow-2xl mb-24">
-        <img src={profilepic} className="h-44 w-44 mb-4"></img>
+    <div className="flex items-center justify-center w-full h-full">
+      <Tilt options={defaultOptions}>
+        <div className="flex flex-col items-center justify-center bg-white p-14 rounded-xl shadow-2xl w-72 md:w-80 md:h-1/2 m-8 border border-black">
+          <img
+            src={profilepic}
+            className="w-36 h-36 md:h-44 md:w-44 mb-4"
+          ></img>
 
-        <h1 className="font-bold text-3xl">Brandon Scott</h1>
-        <h3 className="text-gray-600 mb-4">Software/Web developer</h3>
+          <h1 className="font-bold text-xl md:text-3xl">Brandon Scott</h1>
+          <h3 className="text-gray-600 mb-4 text-sm md:text-base">
+            Software/Web developer
+          </h3>
 
-        <div className="flex gap-6">
-          <a
-            href="https://github.com/brandonscott4"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <IconBrandGithub />
-          </a>
-          <a
-            href="https://www.linkedin.com/in/brandon-scott-65b669268/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <IconBrandLinkedin />
-          </a>
+          <div className="flex gap-6">
+            <a
+              href="https://github.com/brandonscott4"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <IconBrandGithub className="hover:text-slate-500" />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/brandon-scott-65b669268/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <IconBrandLinkedin className="hover:text-slate-500" />
+            </a>
+          </div>
+
+          <NavLink exact to="contact">
+            <button className="mt-8 bg-gradient-to-r from-blue-500 to-blue-700 hover:from-blue-700 hover:to-blue-900 text-white font-bold py-2 px-4 rounded-3xl">
+              Say Hi 👋
+            </button>
+          </NavLink>
         </div>
-
-        <NavLink exact to="contact">
-          <button className="mt-8 bg-gradient-to-r from-blue-500 to-blue-700 hover:from-blue-700 hover:to-blue-900 text-white font-bold py-2 px-4 rounded-3xl">
-            Say Hi 👋
-          </button>
-        </NavLink>
-      </div>
-    </Tilt>
+      </Tilt>
+    </div>
   );
 }
 

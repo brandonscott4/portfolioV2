@@ -4,10 +4,10 @@ import { NavLink } from "react-router-dom";
 function NavBar() {
   return (
     <>
-      <div className="drawer-end">
+      <div className="drawer-end ">
         <input id="my-drawer" type="checkbox" className="drawer-toggle" />
         <div className="drawer-content flex flex-col">
-          <nav className="w-full h-16 flex justify-between items-center shadow-xl px-24">
+          <nav className="w-full h-16 flex justify-between items-center shadow-xl px-10 lg:px-24 border-b border-black">
             <p className="font-bold text-xl text-">Brandon Scott</p>
             <div className="flex-none lg:hidden">
               <label htmlFor="my-drawer" className="btn btn-square btn-ghost">

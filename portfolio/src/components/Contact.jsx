@@ -1,7 +1,7 @@
 function Contact() {
   return (
     <>
-      <div className="bg-white p-14 rounded-xl shadow-2xl w-1/3">
+      <div className="bg-white p-8 md:p-14 rounded-xl shadow-2xl w-11/12 md:w-3/4 lg:w-1/3 border border-black">
         <form action="">
           <div className="flex flex-col">
             <label
